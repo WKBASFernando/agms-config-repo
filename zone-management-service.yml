@@ -14,4 +14,4 @@ spring:
 # External IoT API Details [cite: 46]
 iot:
   external:
-    base-url: http://104.211.95.241:8080/api
+    [cite_start]base-url: http://104.211.95.241:8080/api
