@@ -1,16 +1,7 @@
 spring:
-  application:
-    name: zone-management-service
-  config:
-    # This tells the service to fetch its real settings from the Config Server
-    import: "optional:configserver:http://localhost:8888" 
   cloud:
     config:
-      discovery:
-        enabled: true
-        service-id: config-server
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+      server:
+        git:
+          uri: https://github.com/WKBASFernando/agms-config-repo.git
+          default-label: main
