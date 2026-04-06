@@ -11,7 +11,7 @@ spring:
       ddl-auto: update
     show-sql: true
 
-# External IoT API Details [cite: 46]
+# External IoT API Details
 iot:
   external:
-    [cite_start]base-url: http://104.211.95.241:8080/api
+    base-url: http://104.211.95.241:8080/api
